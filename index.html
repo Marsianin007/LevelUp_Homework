@@ -10,64 +10,74 @@
 
 <body>
 
+    <label class="logo">Facebook</label>
+    
     <form>
 
-        <label class="logo">Facebook</label>
         <label  class="first_label" for="login">Электронный адрес или номер телефона</label>
-        <input type="text" id="login">
+        <input type="email" id="login">
         <label  class="second_label" for="login">Пароль</label>
         <input type="password" id="password">
         <input type="submit" id="btn" value="Вход">
         <a href="https://www.facebook.com" class="lost_pass">Забыли аккаунт?</a> 
     </form>
 
-    <h1>Создать новый аккаунт</h1>
-    <p>Это бесплатно — и всегда так будет.</p>
+    <div id="registration">
+        <h1>Создать новый аккаунт</h1>
+        <p>Это бесплатно — и всегда так будет.</p>
 
+        <input type="text" id="input_name" placeholder="Имя">
 
-
-        
-    <input type="text" id="input_name" placeholder="Имя">
-        
-
-        
-    <input type="text" id="input_surname" placeholder="Фамилия">
-        
-
-        
-    <input type="text" id="input_email" placeholder ="Номер мобильного телефона или эл.адрес">
+        <input type="text" id="input_surname" placeholder="Фамилия">
+    
+        <input type="text" id="input_email" placeholder ="Номер мобильного телефона или эл.адрес">
             
+        <input type="password" id="input_pass" placeholder="Новый пароль">
+
+        <label  class="date" for="login">Дата рождения</label>
+        <input type="date" id="date">
+            
+        <a href="https://www.facebook.com" class="second_href">Зачем указывать дату рождения?</a> 
+                
+        <div id="radio_btn">
+            <input type="radio" id="gender" name="check" value=male> Мужчина
+            <input type="radio" id="gender" name="check" value=female> Женщина
+        </div>
+                    
+        <label id="rule">
+            Нажимая кнопку Регистрация, вы принимаете <a href="https://www.facebook.com" class="rule_1">Условия</a>, <a href="https://www.facebook.com" class="rule_2">Политику использования данных</a> и <a href="https://www.facebook.com" class="rule_3">Политику в отношении файлов cookie</a>. Вы можете получать от нас SMS-уведомления, отказаться от которых можно в любой момент.
+        </label>    
+
+        <input type="submit" id="btn_regist" value="Регистрация">
 
                 
-    <input type="text" id="input_pass" placeholder="Новый пароль">
-            
+     </div>div>
 
-    <label  class="date" for="login">Дата рождения</label>
-    <input type="date" id="date">
-            
-            
-    <a href="https://www.facebook.com" class="second_href">Зачем указывать дату рождения?</a>  
+     <div id="Regist_end">
+        <label id="add_new">
+            <a href="https://www.facebook.com" class="rule_4">Создать Страницу</a> знаменитости, музыкальной группы или компании.
+        </label>
+    </div>
 
-        
+    <div class="Connect">
 
-    <div id="radio_btn">
-        <input type="radio" id="gender" name="check" value=male> Мужчина
-        <input type="radio" id="gender" name="check" value=female> Женщина
+        <div id="text_family">
+            Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.
+        </div>
+
+        <img class="img" src="https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/GwFs3_KxNjS.png" alt="" width="537" height="195">
     </div>
 
 
-    <label id="rule">
-
-        Нажимая кнопку Регистрация, вы принимаете <a href="https://www.facebook.com" class="rule_1">Условия</a>, <a href="https://www.facebook.com" class="rule_2">Политику использования данных</a> и <a href="https://www.facebook.com" class="rule_3">Политику в отношении файлов cookie</a>. Вы можете получать от нас SMS-уведомления, отказаться от которых можно в любой момент.
-    </label>
-
-    <input type="submit" id="btn_regist" value="Регистрация">
-
-    <label id="add_new">
-
-        <a href="https://www.facebook.com" class="rule_4">Создать Страницу</a> знаменитости, музыкальной группы или компании.
-    </label>
-
-
 </body>
-</html>
+</html>            
+         
+
+            
+
+        
+
+
+        
+
+   

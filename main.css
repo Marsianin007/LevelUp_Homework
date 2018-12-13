@@ -1,5 +1,5 @@
 body{
-    background-color: #e9ebee;
+    background: linear-gradient(to right, white, #D3D8E8);
 }
 
 form{
@@ -12,14 +12,15 @@ form{
     }   
 
 .logo{
-position: absolute;
-font-size: 43px;
-font-weight: bold;
-color:white;
-text-transform: lowercase;
-font-family: Arial, Helvetica, sans-serif;
-bottom: 10px;
-left: 175px;
+    z-index:1;
+    position: absolute;
+    font-size: 43px;
+    font-weight: bold;
+    color:white;
+    text-transform: lowercase;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 24px;
+    left: 175px;
 
 }
 #login{
@@ -239,6 +240,25 @@ input[placeholder]{
     color: #666;
     font-size: 13px;
     font-weight: bold;
+}
+
+.Connect{
+    position: absolute;
+    top:170px;
+    left: 180px;
+}
+
+#text_family{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+    position:absolute;
+    bottom: 190px;
+    left: 50px;
 }
 
 
