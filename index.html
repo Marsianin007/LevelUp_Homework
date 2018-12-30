@@ -10,15 +10,24 @@
 
 <body>
 
-    <h1 class="logo">Facebook</h1>
+    
     
     <header>
-        <label  class="first_label" for="login">Электронный адрес или номер телефона</label>
-        <input type="email" id="login" name="login_email">
-        <label  class="second_label" for="password">Пароль</label>
-        <input type="password" id="password" name="login_pass">
-        <input type="submit" id="btn" name="login_button" value="Вход">
-        <a href="https://www.facebook.com" class="lost_pass">Забыли аккаунт?</a> 
+        <div class="form">
+            <h1 class="logo">Facebook</h1>
+
+            <div id="form_1">
+                <label  class="first_label" for="login">Электронный адрес или номер телефона</label>
+                <input type="email" id="login" name="login_email">
+            </div>
+
+            <div id="form_2">
+                <label  class="second_label" for="password">Пароль</label>
+                <input type="password" id="password" name="login_pass">
+            </div>
+            <input type="submit" id="btn" name="login_button" value="Вход">
+            <a href="https://www.facebook.com" class="lost_pass">Забыли аккаунт?</a> 
+        </div>
     </header>
 
     <div style="clear:both"></div>
@@ -52,8 +61,12 @@
         <a href="https://www.facebook.com" class="second_href">Зачем указывать дату рождения?</a> 
                 
         <div id="radio_btn">
-            <input type="radio" id="male" name="check" value=male> Мужчина
-            <input type="radio" id="female" name="check" value=female> Женщина
+            
+            
+            <label for="male"><input type="radio" name="check" id="male" value=male /> Мужчина</label>
+            <label for="ауmale"><input type="radio" name="check" id="ауmale" value=ауmale /> Женщина</label>
+            
+            
         </div>
                     
         <label id="rule">
@@ -68,6 +81,31 @@
             </label>
         </div>
 
+        
+    </div>
+
+    
+
+    <div class="footer">
+        <div class="languages">
+            <ul>
+                <li><a href="https://www.facebook.com" class="second_href">Русский</a> </li>
+                <li><a href="https://www.facebook.com" class="second_href">Українська</a></li>
+                <li><a href="https://www.facebook.com" class="second_href">English (US)</a></li>
+                <li><a href="https://www.facebook.com" class="second_href">Magyar</a></li>
+                <li><a href="https://www.facebook.com" class="second_href">العربية</a></li>
+                <li><a href="https://www.facebook.com" class="second_href">Français (France)</a></li>
+                <li><a href="https://www.facebook.com" class="second_href">Türkçe</a></li>
+                <li><a href="https://www.facebook.com" class="second_href">Tiếng Việt</a></li>
+                <li><a href="https://www.facebook.com" class="second_href">Polski</a></li>
+                <li><a href="https://www.facebook.com" class="second_href">Español</a></li>
+                <li><a href="https://www.facebook.com" class="second_href">Português (Brasil)</a></li>
+            </ul>    
+        </div> 
+
+            
+        </ul>
+ 
     </div>
 
 </body>

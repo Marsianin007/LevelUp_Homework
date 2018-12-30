@@ -16,6 +16,14 @@ header:after {
         height: 0;  /* сделать высоту 0, чтобы не занимал место */
       }
 
+#form_1{
+    float: right;;
+    
+}
+#form2{
+    float: right;;
+    
+}
 .logo{
     z-index:1;
     font-size: 43px;
@@ -95,7 +103,7 @@ header:after {
     
 }
 #registration{
-
+float: right;
 }
 
 #registration:after {
@@ -142,7 +150,6 @@ input[placeholder]{
 #input_name{
     
     border-width: 1px;
-    border-color: red;
     border-style: solid;
     border-radius: 5px;
     width: 192px;
@@ -154,7 +161,6 @@ input[placeholder]{
 #input_surname{
     
     border-width: 1px;
-    border-color: red;
     border-style: solid;
     border-radius: 5px;
     width: 192px;
@@ -171,7 +177,6 @@ input[placeholder]{
 #input_email{
     
     border-width: 1px;
-    border-color: red;
     border-style: solid;
     border-radius: 5px;
     width: 399px;
@@ -186,7 +191,6 @@ input[placeholder]{
 #input_pass{
     
     border-width: 1px;
-    border-color: red;
     border-style: solid;
     border-radius: 5px;
     width: 399px;
@@ -200,7 +204,6 @@ input[placeholder]{
 #date{
     
     border-width: 1px;
-    border-color: red;
     border-style: solid;
     border-radius: 5px;
     width: 199px;
@@ -269,6 +272,18 @@ input[placeholder]{
     margin: 32px -3px;
     
 }
+
+.footer{
+    float: right;
+    
+}
+li{
+    display: inline;
+}
+
+
+
+    
 
 
 
