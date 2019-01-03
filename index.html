@@ -13,78 +13,80 @@
     
     
     <header>
-        <div class="form">
-            <h1 class="logo">Facebook</h1>
+        
+        <h1 class="logo">Facebook</h1>
 
-            <div id="form_1">
-                <label  class="first_label" for="login">Электронный адрес или номер телефона</label>
-                <input type="email" id="login" name="login_email">
-            </div>
-
-            <div id="form_2">
-                <label  class="second_label" for="password">Пароль</label>
-                <input type="password" id="password" name="login_pass">
-            </div>
-            <input type="submit" id="btn" name="login_button" value="Вход">
-            <a href="https://www.facebook.com" class="lost_pass">Забыли аккаунт?</a> 
+        <div id="regist_log">
+            <label  class="first_label" for="login">Электронный адрес или номер телефона</label>
+            <input type="email" id="login" name="login_email">
         </div>
+
+        <div id="regist_pass">
+            <label  class="second_label" for="password">Пароль</label>
+            <input type="password" id="password" name="login_pass">
+        </div>
+        <input type="submit" id="btn" name="login_button" value="Вход">
+        <a href="https://www.facebook.com" class="lost_pass">Забыли аккаунт?</a> 
+        
     </header>
 
     <div style="clear:both"></div>
 
-    <div class="Connect">
+    <div class="center">
 
-        <div id="text_family">
-            Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.
+        <div class="Connect">
+
+            <div id="text_family">
+                Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.
+            </div>
+            <div style="clear:both"></div>
+            <img class="img" src="https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/GwFs3_KxNjS.png" alt="" width="537" height="195">
+
         </div>
-        <div style="clear:both"></div>
-        <img class="img" src="https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/GwFs3_KxNjS.png" alt="" width="537" height="195">
 
-    </div>
+        <div id="registration">
 
-    <div id="registration">
+            <h1>Создать новый аккаунт</h1>
+            <p>Это бесплатно — и всегда так будет.</p>
 
-        <h1>Создать новый аккаунт</h1>
-        <p>Это бесплатно — и всегда так будет.</p>
+            <input type="text" id="input_name" name="new_name" placeholder="Имя">
 
-        <input type="text" id="input_name" name="new_name" placeholder="Имя">
-
-        <input type="text" id="input_surname" name="new_surname" placeholder="Фамилия">
-    
-        <input type="text" id="input_email" name="email_number" placeholder ="Номер мобильного телефона или эл.адрес">
-            
-        <input type="password" id="input_pass" name="new_password" placeholder="Новый пароль">
-
+            <input type="text" id="input_surname" name="new_surname" placeholder="Фамилия">
         
-        <input type="date" id="date" name="new_date">
-            
-        <a href="https://www.facebook.com" class="second_href">Зачем указывать дату рождения?</a> 
+            <input type="text" id="input_email" name="email_number" placeholder ="Номер мобильного телефона или эл.адрес">
                 
-        <div id="radio_btn">
+            <input type="password" id="input_pass" name="new_password" placeholder="Новый пароль">
+
             
-            
-            <label for="male"><input type="radio" name="check" id="male" value=male /> Мужчина</label>
-            <label for="ауmale"><input type="radio" name="check" id="ауmale" value=ауmale /> Женщина</label>
-            
-            
-        </div>
+            <input type="date" id="date" name="new_date">
+                
+            <a href="https://www.facebook.com" class="second_href">Зачем указывать дату рождения?</a> 
                     
-        <label id="rule">
-            Нажимая кнопку Регистрация, вы принимаете <a href="https://www.facebook.com" class="rule_1">Условия</a>, <a href="https://www.facebook.com" class="rule_2">Политику использования данных</a> и <a href="https://www.facebook.com" class="rule_3">Политику в отношении файлов cookie</a>. Вы можете получать от нас SMS-уведомления, отказаться от которых можно в любой момент.
-        </label>    
+            <div id="radio_btn">
+                
+                
+                <label for="male"><input type="radio" name="check" id="male" value=male /> Мужчина</label>
+                <label for="ауmale"><input type="radio" name="check" id="ауmale" value=ауmale /> Женщина</label>
+                
+                
+            </div>
+                        
+            <label id="rule">
+                Нажимая кнопку Регистрация, вы принимаете <a href="https://www.facebook.com" class="rule_1">Условия</a>, <a href="https://www.facebook.com" class="rule_2">Политику использования данных</a> и <a href="https://www.facebook.com" class="rule_3">Политику в отношении файлов cookie</a>. Вы можете получать от нас SMS-уведомления, отказаться от которых можно в любой момент.
+            </label>    
 
-        <input type="submit" id="btn_regist" name="button_regist" value="Регистрация">
+            <input type="submit" id="btn_regist" name="button_regist" value="Регистрация">
 
-        <div id="Regist_end">
-            <label id="add_new">
-                <a href="https://www.facebook.com" class="rule_4">Создать Страницу</a> знаменитости, музыкальной группы или компании.
-            </label>
+            <div id="Regist_end">
+                <label id="add_new">
+                    <a href="https://www.facebook.com" class="rule_4">Создать Страницу</a> знаменитости, музыкальной группы или компании.
+                </label>
+            </div>
+
+            
         </div>
 
-        
-    </div>
-
-    
+    </div>    
 
     <div class="footer">
         <div class="languages">
@@ -103,10 +105,12 @@
             </ul>    
         </div> 
 
-            
-        </ul>
- 
+                
+        
+    
     </div>
+
+    
 
 </body>
 </html>            

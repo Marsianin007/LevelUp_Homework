@@ -16,11 +16,11 @@ header:after {
         height: 0;  /* сделать высоту 0, чтобы не занимал место */
       }
 
-#form_1{
+#regist_log{
     float: right;;
     
 }
-#form2{
+#regist_pass{
     float: right;;
     
 }
