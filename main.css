@@ -16,13 +16,20 @@ header:after {
         height: 0;  /* сделать высоту 0, чтобы не занимал место */
       }
 
+
+.form{
+    float: right;
+    margin: 1px 1px;
+}
+
+
 #regist_log{
-    float: right;;
+margin: 1px 1px;
     
 }
 #regist_pass{
-    float: right;;
-    
+margin: 1px 1px;    
+
 }
 .logo{
     z-index:1;
@@ -31,44 +38,58 @@ header:after {
     text-transform: lowercase;
     float: left;
     margin: 34px 105px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #login{
     
     border: 1px solid #bdc7d8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
-    float: left;
-    margin: -100px 527px;
+    
+    
 }
 
 #password{
     
     border: 1px solid #bdc7d8;
     width: 150px;
-    float: right;
-    margin: -100px 413px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
 }
 
 .first_label{
     color: #fff;
     font-size: 12px;
-    float: left;
-    margin: -123px 527px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
 }
 
 .second_label{
     color:#fff;
     font-size: 12px;
-    float: right;
-    margin: -123px 527px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 
 #btn{
     background-color: #4267b2;
     border: 1px solid #ccd0d5;
     color:#fff;
-    float: right;
-    margin: -100px 335px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .lost_pass{
@@ -77,8 +98,9 @@ header:after {
     text-decoration: none;
     font-size: 12px;
     cursor: pointer;
-    float: right;
-    margin: -75px 480px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     }
 
 .Connect{
@@ -93,12 +115,12 @@ header:after {
     margin-top: 40px;
     width: 450px;
     word-spacing: -1px;
-    float: left;
+    
     margin: -3px 210px;
     }
 
 .img{
-    float: left;
+    
     margin: 1px 158px;
     
 }
