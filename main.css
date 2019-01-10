@@ -18,17 +18,30 @@ header:after {
 
 
 .form{
-    float: right;
-    margin: 1px 1px;
+    float: left;
+    margin: 26px 30px;
 }
 
-
-#regist_log{
-margin: 1px 1px;
+.logotype{
+    float: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
 }
-#regist_pass{
-margin: 1px 1px;    
+.regist_log{
+    float: left;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;    
+
+    
+}
+.regist_pass{
+    float: left;
+    margin: 0px 11px;
+    padding: 0;
+    box-sizing: border-box;    
 
 }
 .logo{
@@ -42,7 +55,7 @@ margin: 1px 1px;
     box-sizing: border-box;
 }
 
-#login{
+.login{
     
     border: 1px solid #bdc7d8;
     margin: 0;
@@ -53,7 +66,7 @@ margin: 1px 1px;
     
 }
 
-#password{
+.password{
     
     border: 1px solid #bdc7d8;
     width: 150px;
@@ -87,7 +100,8 @@ margin: 1px 1px;
     background-color: #4267b2;
     border: 1px solid #ccd0d5;
     color:#fff;
-    margin: 0;
+    float: right;
+    margin: -17px -265px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -98,7 +112,8 @@ margin: 1px 1px;
     text-decoration: none;
     font-size: 12px;
     cursor: pointer;
-    margin: 0;
+    float: right;
+    margin: 0px 75px;
     padding: 0;
     box-sizing: border-box;
     }
@@ -145,8 +160,7 @@ h1{
     font-size: 36px;
     width:400px;
     height: 86px;
-    float: right;
-    margin: 10px 30px;
+    
     }
 p{
     font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
@@ -155,8 +169,7 @@ p{
     text-rendering: optimizelegibility;
     font-size: 19px;
     color: #333;
-    float: right;
-    margin: 100px -353px;
+    
     
 }
 
@@ -169,26 +182,24 @@ input[placeholder]{
     font-size: 18px;
     }
 
-#input_name{
+.input_name{
     
     border-width: 1px;
     border-style: solid;
     border-radius: 5px;
-    width: 192px;
+    width: 194px;
     height: 39px;
-    float: right;
-    margin: 140px -222px;
+    margin: 7px 0px;
     }
 
-#input_surname{
+.input_surname{
     
     border-width: 1px;
     border-style: solid;
     border-radius: 5px;
-    width: 192px;
+    width: 194px;
     height: 39px;
-    float: right;
-    margin: 140px -430px;
+    
     
 }
 
@@ -196,21 +207,7 @@ input[placeholder]{
 
 
 
-#input_email{
-    
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 5px;
-    width: 399px;
-    height: 39px;
-    font-size: 18px;
-    float: right;
-    margin: 200px -428px;
-    
-}
-
-
-#input_pass{
+.input_email{
     
     border-width: 1px;
     border-style: solid;
@@ -218,12 +215,24 @@ input[placeholder]{
     width: 399px;
     height: 39px;
     font-size: 18px;
-    float: right;
-    margin: 260px -428px;
+    margin: 7px 0px;
     
 }
 
-#date{
+
+.input_pass{
+    
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 399px;
+    height: 39px;
+    font-size: 18px;
+    margin: 7px 0px;
+    
+}
+
+.date{
     
     border-width: 1px;
     border-style: solid;
@@ -231,8 +240,7 @@ input[placeholder]{
     width: 199px;
     height: 39px;
     font-size: 18px;
-    float: right;
-    margin: 315px -228px;
+   
 }
 
 
@@ -242,25 +250,22 @@ input[placeholder]{
     color: #365899;
     cursor: pointer;
     max-width: 140px;
-    float: right;
-    margin: 320px -386px;
+    
 }
 
-#radio_btn{
-    float: right;
-    margin: 372px -205px;
+.radio_btn{
+    
 }
 
-#rule{
+.rule{
     max-width: 316px;
     color: #777;
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
-    float: right;
-    margin: 403px -340px;
+    
 }
 
-#btn_regist{
+.btn_regist{
     font-size: 19px;
     font-weight: bold;
     background: linear-gradient(#67ae55, #578843);
@@ -275,29 +280,33 @@ input[placeholder]{
     margin-top: 10px;
     margin-bottom: 10px;
     text-shadow: 0 1px 2px rgba(0,0,0,.5);
-    float: right;
-    margin: 469px -216px;
+    
 }
 
-#add_new{
+.add_new{
     
     max-width: 400px;
     color: #666;
     font-size: 13px;
     font-weight: bold;
-    float: right;
-    margin: 485px -422px;
-}
-
-#Regist_end{
-    float: right;;
-    margin: 32px -3px;
     
 }
 
+.Regist_end{
+    
+    
+}
+.center:after {
+    content: "."; /* добавить содержимое: "." */
+    display: block;  /* сделать блоком, т.к. inline не может иметь clear */
+    clear: both;  /* с обеих сторон clear */
+    visibility: hidden; /* сделать невидимым, зачем нам точка внизу? */
+    height: 30px;  /* сделать высоту 0, чтобы не занимал место */
+  }
+
 .footer{
     float: left;
-    clear: both;
+    clear: left;
     background-color: white;
 
     

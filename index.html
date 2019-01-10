@@ -14,20 +14,20 @@
     
     <header>
         
-        
-        <h1 class="logo">Facebook</h1>
-        
+        <div class="logotype">
+            <a href="https://www.facebook.com/"><h1 class="logo">Facebook</h1></a>
+        </div>
         <div class="form">
-            <div id="regist_log">
+            <div class="regist_log">
                 <label  class="first_label" for="login">Электронный адрес или номер телефона</label>
                 <div style="clear: left"></div>
-                <input type="email" id="login" name="login_email">
+                <input type="email" class="login" name="login_email">
             </div>
             
-            <div id="regist_pass">
+            <div class="regist_pass">
                 <label  class="second_label" for="password">Пароль</label>
                 <div style="clear: left"></div>
-                <input type="password" id="password" name="login_pass">
+                <input type="password" class="password" name="login_pass">
             </div>
             <div style="clear: left"></div>
             <a href="https://www.facebook.com" class="lost_pass">Забыли аккаунт?</a> 
@@ -55,20 +55,21 @@
             <h1>Создать новый аккаунт</h1>
             <p>Это бесплатно — и всегда так будет.</p>
 
-            <input type="text" id="input_name" name="new_name" placeholder="Имя">
+            <input type="text" class="input_name" name="new_name" placeholder="Имя">
 
-            <input type="text" id="input_surname" name="new_surname" placeholder="Фамилия">
+            <input type="text" class="input_surname" name="new_surname" placeholder="Фамилия">
+            <div style="clear: left"></div>
         
-            <input type="text" id="input_email" name="email_number" placeholder ="Номер мобильного телефона или эл.адрес">
-                
-            <input type="password" id="input_pass" name="new_password" placeholder="Новый пароль">
-
+            <input type="text" class="input_email" name="email_number" placeholder ="Номер мобильного телефона или эл.адрес">
+            <div style="clear: left"></div>   
+            <input type="password" class="input_pass" name="new_password" placeholder="Новый пароль">
+            <div style="clear: left"></div>
             
-            <input type="date" id="date" name="new_date">
+            <input type="date" class="date" name="new_date">
                 
             <a href="https://www.facebook.com" class="second_href">Зачем указывать дату рождения?</a> 
                     
-            <div id="radio_btn">
+            <div class="radio_btn">
                 
                 
                 <label for="male"><input type="radio" name="check" id="male" value=male /> Мужчина</label>
@@ -77,14 +78,14 @@
                 
             </div>
                         
-            <label id="rule">
+            <div class="rule">
                 Нажимая кнопку Регистрация, вы принимаете <a href="https://www.facebook.com" class="rule_1">Условия</a>, <a href="https://www.facebook.com" class="rule_2">Политику использования данных</a> и <a href="https://www.facebook.com" class="rule_3">Политику в отношении файлов cookie</a>. Вы можете получать от нас SMS-уведомления, отказаться от которых можно в любой момент.
-            </label>    
+            </div>    
 
-            <input type="submit" id="btn_regist" name="button_regist" value="Регистрация">
+            <input type="submit" class="btn_regist" name="button_regist" value="Регистрация">
 
-            <div id="Regist_end">
-                <label id="add_new">
+            <div class="Regist_end">
+                <label class="add_new">
                     <a href="https://www.facebook.com" class="rule_4">Создать Страницу</a> знаменитости, музыкальной группы или компании.
                 </label>
             </div>
@@ -92,8 +93,9 @@
             
         </div>
 
-    </div>    
+    </div>  
 
+    <div style="clear:left"></div>
     <div class="footer">
         <div class="languages">
             <ul>
